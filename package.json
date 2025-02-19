@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://indiweed.github.io/pokemon-api-react-app",
   "dependencies": {
+    "axios": "^1.7.9",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
