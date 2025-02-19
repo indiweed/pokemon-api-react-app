@@ -1,0 +1,6 @@
+.chips_btns_list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 485px;
+    gap: 6px;
+}

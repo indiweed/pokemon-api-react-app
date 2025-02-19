@@ -1,0 +1,71 @@
+.termin_definition {
+    background-color: black;
+    width: 485px;
+    height: 500px;
+    font-family: 'Raleway', sans-serif;
+    color: #A0A0A0;
+}
+
+.none_pokemon_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 45%;
+}
+
+.termin_definition_container {
+    padding: 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.poke_name {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+
+.poke_img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.poke_img img {
+    width: 180px;
+    height: 180px;
+}
+
+.poke_info_list {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25.5px;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+    background: rgba(0, 0, 0, 0.834);
+    z-index: 1;
+}
+
+.spinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: #3d5af1 transparent #3d5af1 transparent;
+    border-radius: 50%;
+    animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
