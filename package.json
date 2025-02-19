@@ -2,7 +2,7 @@
   "name": "union",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://indiweed.github.io/pokemon-api-react-app",
+  "homepage": "https://indiweed.github.io/pokemon-api-react-app/",
   "dependencies": {
     "axios": "^1.7.9",
     "@testing-library/dom": "^10.4.0",
